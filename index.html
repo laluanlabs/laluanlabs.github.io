@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JALAN Navigation</title><meta name="description" content="JALAN is an Android navigation app being built in Malaysia, for Malaysian roads.">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>:root{--bg:#F6F3EC;--surface:#FFFFFF;--ink:#10151C;--muted:#4A5361;--line:#DDD6C6;--brand:#0B2C7A;--on-brand:#FFFFFF;--link:#0B2C7A;--yellow:#FFC72C;--red:#C8001F;--soft:#EFE9DA;--font:'Manrope','Segoe UI',system-ui,sans-serif;}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B1018;--surface:#151C27;--ink:#EEF2F8;--muted:#A3AEC0;--line:#253042;--brand:#FFC72C;--on-brand:#10151C;--link:#8FB0FF;--red:#FF6B7F;--soft:#1A2230;color-scheme:dark;}}:root[data-theme="dark"]{--bg:#0B1018;--surface:#151C27;--ink:#EEF2F8;--muted:#A3AEC0;--line:#253042;--brand:#FFC72C;--on-brand:#10151C;--link:#8FB0FF;--red:#FF6B7F;--soft:#1A2230;color-scheme:dark;}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.65;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0}a{color:var(--link);text-underline-offset:3px}a:focus-visible,button:focus-visible{outline:3px solid var(--yellow);outline-offset:3px;border-radius:4px}.wrap{max-width:1080px;margin:0 auto}header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:20px 0}.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:26px;letter-spacing:-.02em;color:var(--brand);text-decoration:none}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .brand{color:var(--ink)}}:root[data-theme="dark"] .brand{color:var(--ink)}.appicon{border-radius:22%;display:block;flex:none}nav.top{display:flex;gap:22px;flex-wrap:wrap;font-weight:600;font-size:15px}nav.top a{color:var(--muted);text-decoration:none}nav.top a:hover{color:var(--ink);text-decoration:underline}.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding:32px 0 72px}.pill{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:6px 12px;border-radius:999px;background:var(--yellow);color:#10151C}h1,h2,h3{line-height:1.08;text-wrap:balance;margin:0;letter-spacing:-.03em}h1{font-size:clamp(42px,7vw,76px);font-weight:800;margin:18px 0 14px;color:var(--brand)}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) h1{color:var(--ink)}}:root[data-theme="dark"] h1{color:var(--ink)}.tagline{font-size:22px;font-weight:800;margin:0 0 14px}h2{font-size:clamp(28px,4vw,40px);font-weight:800;margin-bottom:14px}h3{font-size:20px;font-weight:800;margin-bottom:6px;letter-spacing:-.01em}p{margin:0 0 14px;max-width:62ch}.lead{font-size:19px;color:var(--muted)}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-block;padding:13px 22px;border-radius:12px;font-weight:800;text-decoration:none;border:2px solid var(--brand)}.btn.primary{background:var(--brand);color:var(--on-brand)}.btn.ghost{color:var(--ink);background:transparent;border-color:var(--line)}.btn:hover{filter:brightness(.95)}.visual img{display:block;width:100%;max-width:260px;height:auto;border-radius:22%;border:1px solid var(--line);margin:0 auto}section{padding:60px 0;border-top:1px solid var(--line)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:26px}.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;min-width:0}.card p{margin:0;color:var(--muted);font-size:16px}.tag{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--red);margin-bottom:10px}.iconfeature{display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:center}.iconfeature img{display:block;border-radius:22%;border:1px solid var(--line);width:200px;height:200px}.swatches{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.sw{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--muted)}.sw i{width:22px;height:22px;border-radius:6px;display:block;border:1px solid var(--line)}.road{list-style:none;margin:26px 0 0;padding:0}.road li{display:grid;grid-template-columns:160px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--line)}.road li:first-child{border-top:1px solid var(--line)}.road b{font-size:18px;font-weight:800}.road span{color:var(--muted)}.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}.facts{margin:0;padding:0;list-style:none;display:grid;gap:10px;color:var(--muted)}.facts li{padding-bottom:10px;border-bottom:1px solid var(--line)}.facts strong{color:var(--ink);font-weight:800}footer{border-top:1px solid var(--line);padding:28px 0 44px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.doc{max-width:760px;padding:20px 0 56px}.doc h1{font-size:clamp(34px,5vw,50px);margin:12px 0 8px}.doc h2{font-size:24px;margin:34px 0 8px}.doc p,.doc li{max-width:68ch}.doc ul{padding-left:20px;margin:0 0 14px}.meta{color:var(--muted);font-size:15px}@media (max-width:860px){.hero{grid-template-columns:1fr;padding-bottom:44px}.two,.iconfeature{grid-template-columns:1fr;gap:24px}.road li{grid-template-columns:1fr;gap:4px}section{padding:44px 0}}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}</style></head><body>
+<div class="wrap">
+<header class="top"><a class="brand" href="index.html" aria-label="JALAN home"><img class="appicon" src="icon.svg" alt="" width="40" height="40">JALAN</a>
+<nav class="top" aria-label="Main"><a href="index.html#about">About</a><a href="index.html#features">Features</a><a href="index.html#roadmap">Roadmap</a><a href="index.html#contact">Contact</a><a href="privacy.html">Privacy</a></nav></header>
+<main>
+<div class="hero">
+  <div>
+    <span class="pill">In development &middot; Android</span>
+    <h1>Jalan.</h1>
+    <p class="tagline">Jom, jalan! Navigation built for Malaysian roads.</p>
+    <p class="lead">JALAN is an Android navigation app made in Malaysia, for people who drive here. It is built on OpenStreetMap data and designed around Malaysian roads, junctions and languages.</p>
+    <p class="lead">The app is being built now and is planned for release on Google Play.</p>
+    <div class="actions"><a class="btn primary" href="#features">See what is planned</a><a class="btn ghost" href="#contact">Get in touch</a></div>
+  </div>
+  <div class="visual"><img src="icon.svg" alt="The JALAN app icon: a red bunga raya flower with a yellow arrow at its navy centre" width="260" height="260"></div>
+</div>
+<section id="about">
+  <div class="two">
+    <div>
+      <h2>What JALAN is</h2>
+      <p>JALAN is Bahasa Malaysia for &ldquo;road&rdquo;. It is a turn-by-turn navigation app for drivers in Malaysia. It shows where you are, finds a route and warns you about what is ahead.</p>
+      <p>It covers Malaysia only. That lets us focus on local details such as Malaysian road names, speed limits and the way people give directions.</p>
+    </div>
+    <ul class="facts">
+      <li><strong>Platform.</strong> Android first.</li>
+      <li><strong>Coverage.</strong> Malaysia.</li>
+      <li><strong>Languages.</strong> Bahasa Malaysia and English.</li>
+      <li><strong>Map data.</strong> OpenStreetMap, an open map that anyone can improve.</li>
+      <li><strong>Status.</strong> In development. Not yet on Google Play.</li>
+    </ul>
+  </div>
+</section>
+<section id="features">
+  <h2>What we are building</h2>
+  <p>These features are planned and some are not finished yet. We list them so you know what JALAN is for.</p>
+  <div class="grid">
+    <div class="card"><span class="tag">First milestone</span><h3>Live map and location</h3><p>A clear map of Malaysia that follows your position.</p></div>
+    <div class="card"><span class="tag">Planned</span><h3>Search nearby</h3><p>Find fuel, parking, coffee and charging points, and see how far each one is.</p></div>
+    <div class="card"><span class="tag">Planned</span><h3>Route choices</h3><p>Compare the fastest route with options such as one that avoids tolls.</p></div>
+    <div class="card"><span class="tag">Planned</span><h3>Turn-by-turn guidance</h3><p>Large next-turn instructions, lane guidance, the speed limit and your arrival time.</p></div>
+    <div class="card"><span class="tag">Planned</span><h3>Reports from drivers</h3><p>Drivers can report crashes, hazards and road closures so others can avoid them.</p></div>
+    <div class="card"><span class="tag">Planned</span><h3>Day and night modes</h3><p>A bright map by day and a dark one after sunset that is easier on the eyes.</p></div>
+  </div>
+</section>
+<section id="icon">
+  <div class="iconfeature">
+    <img src="icon.svg" alt="The JALAN app icon: a red bunga raya flower with a yellow arrow at its navy centre" width="200" height="200" loading="lazy">
+    <div>
+      <h2>The bunga raya</h2>
+      <p>The JALAN icon is a bunga raya, Malaysia&rsquo;s national flower, with a heading arrow at its heart. The flower becomes the compass. Its navy, yellow and red come from the Jalur Gemilang.</p>
+      <div class="swatches">
+        <span class="sw"><i style="background:#0B2C7A"></i>Biru Malam</span>
+        <span class="sw"><i style="background:#FFC72C"></i>Kuning Diraja</span>
+        <span class="sw"><i style="background:#E4002B"></i>Merah Raya</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="roadmap">
+  <h2>Roadmap</h2>
+  <p>The order we are building in. Dates will be added once each step is tested.</p>
+  <ol class="road">
+    <li><b>Milestone 1</b><span>Map of Malaysia with live location.</span></li>
+    <li><b>Milestone 2</b><span>Place search and turn-by-turn routing.</span></li>
+    <li><b>Milestone 3</b><span>Driver reports and speed limit display.</span></li>
+    <li><b>Release</b><span>Testing with real drivers, then publication on Google Play.</span></li>
+  </ol>
+</section>
+<section id="contact">
+  <div class="two">
+    <div>
+      <h2>Who is behind JALAN</h2>
+      <p>JALAN is developed by Laluan Labs. Laluan Labs is operated by Mining Resources, a business registered in Malaysia.</p>
+      <p>We welcome questions, feedback and offers to test the app.</p>
+    </div>
+    <ul class="facts">
+      <li><strong>Email.</strong> <a href="mailto:miningresources00@gmail.com">miningresources00@gmail.com</a></li>
+      <li><strong>Developer.</strong> Laluan Labs</li><li><strong>Registered business.</strong> Mining Resources, Malaysia</li>
+      <li><strong>Privacy.</strong> Read our <a href="privacy.html">privacy policy</a>.</li>
+    </ul>
+  </div>
+</section>
+</main>
+<footer><span>&copy; 2026 Laluan Labs. Operated by Mining Resources, Malaysia.</span><span>Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a></span></footer>
+</div>
+</body></html>
